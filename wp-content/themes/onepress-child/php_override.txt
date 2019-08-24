@@ -1,0 +1,4 @@
+<?php
+    $filepath = str_replace(get_option('template'), get_option('stylesheet'), __FILE__);
+    if (file_exists($filepath)) {include($filepath); return;}
+?>

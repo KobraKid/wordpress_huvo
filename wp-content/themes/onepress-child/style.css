@@ -1,0 +1,91 @@
+/*
+Theme Name: OnePress Child
+Author: Michael Huyler
+Author URI: https://kobrakid.github.io/
+Template: onepress
+Description: Child of OnePress
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: onepress-child
+Tags: portfolio
+*/
+:root {
+  --c-primary: #6a1b9a;
+  --c-secondary: #bf360c;
+  --c-bg: #424242;
+  --c-text: #EEEEEE;
+}
+
+body>.site>.site-content {
+  background-color: var(--c-bg);
+  color: var(--c-text);
+}
+
+li:last-child>a {
+  padding-right: 17px !important;
+}
+
+.imgnav::before {
+  color: var(--c-secondary) !important;
+}
+
+.page-id-16 {
+  background-image: url("../../uploads/2019/08/57913462157__A1BBEF6D-CD3A-49B2-9A28-23B2562609BD_rotated.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--c-bg);
+}
+
+.page-id-16>.site {
+  background-color: transparent;
+}
+
+.page-id-16>.site>.site-content {
+  background-color: transparent;
+}
+
+.slideshow-wrapper {
+  border-color: black !important;
+}
+
+.z-about-page-text {
+  background-color: rgba(66, 66, 66, 0.6);
+  padding: 0 17px;
+}
+
+.z-navbar-item>a {
+  padding: 17px;
+  margin: 0 8px 0 8px;
+}
+
+.z-page-title {
+  color: white;
+  text-shadow: 2px 2px var(--c-secondary);
+}
+
+#footer-2>aside>ul>li {
+  display: none;
+}
+
+#footer-2>aside>ul>li:first-child, #footer-2>aside>ul>li:last-child {
+  display: list-item;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 940px) {}
+
+@media screen and (min-width: 1140px) {
+  .z-navbar-item>a {
+    background-color: var(--c-secondary);
+    display: inline !important;
+    box-shadow: 4px 4px 4px black;
+    transition: 0.3s;
+  }
+
+  /* Give the impression of the button sinking slightly */
+  .z-navbar-item>a:hover {
+    box-shadow: 0 0 4px black;
+  }
+}
