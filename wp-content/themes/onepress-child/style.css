@@ -33,15 +33,25 @@ li:last-child>a {
 .page-id-16 {
   background-image: url("../../uploads/2019/08/57913462157__A1BBEF6D-CD3A-49B2-9A28-23B2562609BD_rotated.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-color: var(--c-bg);
 }
 
-.page-id-16>.site {
+.page-id-23 {
+  background-image: url("../../uploads/2019/08/vlcsnap-2019-08-22-14h18m26s238.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.page-id-16, .page-id-23 {
+  background-repeat: no-repeat;
+}
+
+.page-id-16>.site, .page-id-23>.site {
   background-color: transparent;
 }
 
-.page-id-16>.site>.site-content {
+.page-id-16>.site>.site-content, .page-id-23>.site>.site-content {
   background-color: transparent;
 }
 
@@ -49,7 +59,7 @@ li:last-child>a {
   border-color: black !important;
 }
 
-.z-about-page-text {
+.z-about-page-text, .z-contact-form {
   background-color: rgba(66, 66, 66, 0.6);
   padding: 0 17px;
 }
@@ -77,6 +87,12 @@ li:last-child>a {
 @media screen and (min-width: 940px) {}
 
 @media screen and (min-width: 1140px) {
+  .page-id-23 {
+    background-position: -100px;
+    background-color: black;
+    background-attachment: initial;
+  }
+
   .z-navbar-item>a {
     background-color: var(--c-secondary);
     display: inline !important;
