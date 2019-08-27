@@ -64,6 +64,10 @@ li:last-child>a {
   padding: 0 17px;
 }
 
+.z-hugo-circle {
+  max-width: 305px;
+}
+
 .z-navbar-item>a {
   padding: 17px;
   margin: 0 8px 0 8px;
